@@ -10,7 +10,7 @@ namespace Project2 {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -19,13 +19,13 @@ namespace Project2 {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~MyForm()
 		{
@@ -51,14 +51,14 @@ namespace Project2 {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -85,7 +85,7 @@ namespace Project2 {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(114, 30);
 			this->label1->TabIndex = 0;
-			this->label1->Text = L"Операнд 1";
+			this->label1->Text = L"ГЋГЇГҐГ°Г Г­Г¤ 1";
 			this->label1->TextAlign = System::Drawing::ContentAlignment::TopCenter;
 			this->label1->Click += gcnew System::EventHandler(this, &MyForm::label1_Click);
 			// 
@@ -99,7 +99,7 @@ namespace Project2 {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(118, 30);
 			this->label2->TabIndex = 1;
-			this->label2->Text = L"Операнд 2";
+			this->label2->Text = L"ГЋГЇГҐГ°Г Г­Г¤ 2";
 			this->label2->TextAlign = System::Drawing::ContentAlignment::TopCenter;
 			// 
 			// label3
@@ -112,7 +112,7 @@ namespace Project2 {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(70, 30);
 			this->label3->TabIndex = 2;
-			this->label3->Text = L"Ответ";
+			this->label3->Text = L"ГЋГІГўГҐГІ";
 			this->label3->TextAlign = System::Drawing::ContentAlignment::TopCenter;
 			// 
 			// label4
@@ -125,7 +125,7 @@ namespace Project2 {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(195, 30);
 			this->label4->TabIndex = 3;
-			this->label4->Text = L"Текущее действие";
+			this->label4->Text = L"Г’ГҐГЄГіГ№ГҐГҐ Г¤ГҐГ©Г±ГІГўГЁГҐ";
 			this->label4->TextAlign = System::Drawing::ContentAlignment::TopCenter;
 			this->label4->Click += gcnew System::EventHandler(this, &MyForm::label4_Click);
 			// 
@@ -161,7 +161,7 @@ namespace Project2 {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(595, 62);
 			this->button1->TabIndex = 8;
-			this->button1->Text = L"Вычислить";
+			this->button1->Text = L"Г‚Г»Г·ГЁГ±Г«ГЁГІГј";
 			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -175,14 +175,14 @@ namespace Project2 {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(595, 62);
 			this->button2->TabIndex = 9;
-			this->button2->Text = L"Очистить форму";
+			this->button2->Text = L"ГЋГ·ГЁГ±ГІГЁГІГј ГґГ®Г°Г¬Гі";
 			this->button2->UseVisualStyleBackColor = false;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
 			// comboBox1
 			// 
 			this->comboBox1->FormattingEnabled = true;
-			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(4) { L"Сложение", L"Вычитание", L"Умножение", L"Деление" });
+			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(4) { L"Г‘Г«Г®Г¦ГҐГ­ГЁГҐ", L"Г‚Г»Г·ГЁГІГ Г­ГЁГҐ", L"Г“Г¬Г­Г®Г¦ГҐГ­ГЁГҐ", L"Г„ГҐГ«ГҐГ­ГЁГҐ" });
 			this->comboBox1->Location = System::Drawing::Point(232, 190);
 			this->comboBox1->Name = L"comboBox1";
 			this->comboBox1->Size = System::Drawing::Size(391, 21);
@@ -210,7 +210,7 @@ namespace Project2 {
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(595, 62);
 			this->button3->TabIndex = 11;
-			this->button3->Text = L"Закрыть";
+			this->button3->Text = L"Г‡Г ГЄГ°Г»ГІГј";
 			this->button3->UseVisualStyleBackColor = false;
 			this->button3->Click += gcnew System::EventHandler(this, &MyForm::button3_Click);
 			// 
@@ -231,7 +231,7 @@ namespace Project2 {
 			this->Controls->Add(this->label2);
 			this->Controls->Add(this->label1);
 			this->Name = L"MyForm";
-			this->Text = L"Калькуляторрр";
+			this->Text = L"ГЉГ Г«ГјГЄГіГ«ГїГІГ®Г°Г°Г°";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			this->ResumeLayout(false);
 			this->PerformLayout();
@@ -264,32 +264,32 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 		Num1 = System::Convert::ToDouble(textBox1->Text);
 		Num2 = System::Convert::ToDouble(textBox2->Text);
 
-		if (comboBox1->SelectedItem == "Сложение") {
+		if (comboBox1->SelectedItem == "РЎР»РѕР¶РµРЅРёРµ") {
 			Result = Num1 + Num2;
-			label4->Text = L"Сложение";
+			label4->Text = L"РЎР»РѕР¶РµРЅРёРµ";
 		}
 		else
-			if (comboBox1->SelectedItem == "Вычитание") {
+			if (comboBox1->SelectedItem == "Р’С‹С‡РёС‚Р°РЅРёРµ") {
 				Result = Num1 - Num2;
-				label4->Text = L"Вычитание";
+				label4->Text = L"Р’С‹С‡РёС‚Р°РЅРёРµ";
 			}
 			else
-				if (comboBox1->SelectedItem == "Умножение") {
+				if (comboBox1->SelectedItem == "РЈРјРЅРѕР¶РµРЅРёРµ") {
 					Result = Num1 * Num2;
-					label4->Text = L"Умножение";
+					label4->Text = L"РЈРјРЅРѕР¶РµРЅРёРµ";
 				}
 				else
-					if (comboBox1->SelectedItem == "Деление") {
+					if (comboBox1->SelectedItem == "Р”РµР»РµРЅРёРµ") {
 						if (Num2 != 0) {
 							Result = Num1 / Num2;
-							label4->Text = L"Деление";
+							label4->Text = L"Р”РµР»РµРЅРёРµ";
 						}
-						else { MessageBox::Show("Попытка деления на 0", "Ошибка"); }
+						else { MessageBox::Show("РџРѕРїС‹С‚РєР° РґРµР»РµРЅРёСЏ РЅР° 0", "РћС€РёР±РєР°"); }
 					}
 		textBox3->Text = System::Convert::ToString(Result);
 	}
 	else {
-		MessageBox::Show("Ошибка ввода", "Ошибка");
+		MessageBox::Show("РћС€РёР±РєР° РІРІРѕРґР°", "РћС€РёР±РєР°");
 	}
 }
 
